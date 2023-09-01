@@ -2,14 +2,22 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiCodewars } from "react-icons/si";
 
-const Contact = () => {
+const Contact = (props) => {
+  
   return (
     <div>
-      <h1>Contact</h1>
-      <section className="contact_me">
-        {/* <a style={{textDecoration: 'none'}}></a> */}
-      </section>
-      <div className="contact_me">
+      <h1 role="button"
+        onClick={() => {
+          props.setHide({
+            name: true,
+            about: true,
+            skills: true,
+            projects: true,
+            contact: false,
+          });
+        }}>Contact</h1>
+
+      <div className="contact_me" hidden={props.hide.contact}>
         <div className="linksBox">
           <a
             className="links"

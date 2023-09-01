@@ -1,10 +1,24 @@
 import React from "react";
 
-const Projects = () => {
+const Projects = (props) => {
+  
   return (
     <div>
-      <h1>Projects</h1>
-      <section>
+      <h1
+        role="button"
+        onClick={() => {
+          props.setHide({
+            name: true,
+            about: true,
+            skills: true,
+            projects: false,
+            contact: true,
+          });
+        }}
+      >
+        Projects
+      </h1>
+      <section hidden={props.hide.projects}>
         <p>
           <span>
             <a

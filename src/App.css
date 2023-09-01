@@ -18,5 +18,6 @@
 .textLinks {
   display: flex;
   flex-direction: column;
-  line-height:.8rem
+  gap: .8rem;
+  margin-bottom: 25px;
 }

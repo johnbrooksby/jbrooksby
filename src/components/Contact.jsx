@@ -1,12 +1,13 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiCodewars } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 const Contact = (props) => {
-  
   return (
     <div>
-      <h1 role="button"
+      <h1
+        role="button"
         onClick={() => {
           props.setHide({
             name: true,
@@ -15,7 +16,10 @@ const Contact = (props) => {
             projects: true,
             contact: false,
           });
-        }}>Contact</h1>
+        }}
+      >
+        Contact
+      </h1>
 
       <div className="contact_me" hidden={props.hide.contact}>
         <div className="linksBox">
@@ -46,6 +50,13 @@ const Contact = (props) => {
             <SiCodewars />
           </a>
           <br />
+          <a
+            className="links"
+            style={{ textDecoration: "none" }}
+            href="mailto:johnhbrooksby@yahoo.com?subject=We want you to work for us!"
+          >
+            <MdEmail />
+          </a>
         </div>
         <div className="textLinks">
           <a
@@ -55,13 +66,6 @@ const Contact = (props) => {
             rel="noopener noreferrer"
           >
             My R&#233;sum&#233;
-          </a>
-          <br />
-          <a
-            style={{ textDecoration: "none" }}
-            href="mailto:johnhbrooksby@yahoo.com?subject=We want you to work for us!"
-          >
-            JohnHBrooksby@yahoo.com
           </a>
         </div>
       </div>

@@ -4,6 +4,11 @@
   margin: 0px;
 }
 
+h1, h2 {
+  font-family: 'Antic', sans-serif;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
 h1 {
   font-size: 36pt;
 }
@@ -12,12 +17,21 @@ h2 {
   font-size: 22pt;
 }
 
+h3 {
+  font-size: 16pt;
+}
+
+p {
+  font-size: 15pt;
+}
+
 .avatar {
   margin-top: 7vh;
   margin-bottom: 2vh;
   border: 1px solid grey;
   border-radius: 50%;
-  scale: .9;
+  height: 16vh;
+  box-shadow: 0px 0px 8px grey;
 }
 
 .body {
@@ -25,7 +39,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
-  min-height: 96vh;
+  min-height: 72vh;
   gap: 20px;
 
 }
@@ -58,9 +72,12 @@ section {
 .foot {
   position: fixed;
   bottom: 0px;
-  /* right: 0px; */
   height: 3vh;
   width: 100vw;
   display: flex;
   justify-content: center;
+}
+
+.foot > p {
+  font-size: 13pt;
 }

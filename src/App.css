@@ -17,6 +17,10 @@ h2 {
   font-size: 22pt;
 }
 
+h2:hover {
+  cursor: pointer;
+}
+
 h3 {
   font-size: 16pt;
 }
@@ -38,7 +42,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   min-height: 72vh;
   gap: 20px;
 

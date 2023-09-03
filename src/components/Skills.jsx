@@ -1,10 +1,10 @@
 import React from "react";
 
 const Skills = (props) => {
-  
+
   return (
     <div>
-      <h1
+      <h2
         role="button"
         onClick={() => {
           props.setHide({
@@ -17,7 +17,7 @@ const Skills = (props) => {
         }}
       >
         Skills
-      </h1>
+      </h2>
       <section hidden={props.hide.skills}>
         <p>HTML, CSS, JavaScript, React, Node, Express,</p>
         <p>VScode, SQL, JWT, AWS</p>

@@ -4,14 +4,14 @@ const About = (props) => {
 
   return (
     <div>
-      <h1
+      <h2
         role="button"
         onClick={() => {
           props.setHide({name: true, about: false, skills: true, projects: true, contact: true})
         }}
       >
         About
-      </h1>
+      </h2>
       <section hidden={props.hide.about}>
         <p>I have a Bachelors of Science in Horticulture,</p>
         <p>

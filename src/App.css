@@ -1,5 +1,37 @@
 * {
   text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 36pt;
+}
+
+h2 {
+  font-size: 22pt;
+}
+
+.avatar {
+  margin-top: 7vh;
+  margin-bottom: 2vh;
+  border: 1px solid grey;
+  border-radius: 50%;
+  scale: .9;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 96vh;
+  gap: 20px;
+
+}
+
+section {
+  padding-top: 15px;
 }
 
 .linksBox {
@@ -13,6 +45,7 @@
 .links {
   scale: 1.5;
   color: black;
+  padding-top: 15px;
 }
 
 .textLinks {
@@ -20,4 +53,14 @@
   flex-direction: column;
   gap: .8rem;
   margin-bottom: 25px;
+}
+
+.foot {
+  position: fixed;
+  bottom: 0px;
+  /* right: 0px; */
+  height: 3vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }

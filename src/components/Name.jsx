@@ -12,9 +12,9 @@ const Name = (props) => {
       >
         Hi, I'm {props.name}
       </h1>
-      <section hidden={props.hide.name}>
+      {/* <section hidden={props.hide.name}>
         <p>I'm a {props.title}</p>
-      </section>
+      </section> */}
     </div>
   );
 };

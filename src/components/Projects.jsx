@@ -1,10 +1,10 @@
 import React from "react";
 
 const Projects = (props) => {
-  
+
   return (
     <div>
-      <h1
+      <h2
         role="button"
         onClick={() => {
           props.setHide({
@@ -17,7 +17,7 @@ const Projects = (props) => {
         }}
       >
         Projects
-      </h1>
+      </h2>
       <section hidden={props.hide.projects}>
         <p>
           <span>

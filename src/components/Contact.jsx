@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 const Contact = (props) => {
   return (
     <div>
-      <h1
+      <h2
         role="button"
         onClick={() => {
           props.setHide({
@@ -19,7 +19,7 @@ const Contact = (props) => {
         }}
       >
         Contact
-      </h1>
+      </h2>
 
       <div className="contact_me" hidden={props.hide.contact}>
         <div className="linksBox">
@@ -65,7 +65,7 @@ const Contact = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            My R&#233;sum&#233;
+            <h3>My R&#233;sum&#233;</h3>
           </a>
         </div>
       </div>

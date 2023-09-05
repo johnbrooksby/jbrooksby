@@ -21,7 +21,7 @@ const Contact = (props) => {
         Contact
       </h2>
 
-      <div className="contact_me" hidden={props.hide.contact}>
+      <section className="contact_me" hidden={props.hide.contact}>
         <div className="linksBox">
           <a
             className="links"
@@ -65,10 +65,10 @@ const Contact = (props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h3>My R&#233;sum&#233;</h3>
+            <h3>My Resume</h3>
           </a>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

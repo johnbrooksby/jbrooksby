@@ -61,6 +61,17 @@ const Projects = (props) => {
             </a>
           </span>
         </p>
+        <p>
+          <span>
+            <a
+              href="https://johnstictactoe.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Fun little tic-tac-toe 
+            </a>
+        </span>
+        </p>
       </section>
     </div>
   );

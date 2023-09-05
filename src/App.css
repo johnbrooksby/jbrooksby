@@ -53,8 +53,6 @@ section {
   -o-animation: fadein 1.5s linear;
   -ms-animation: fadein 1.5s linear;
     animation: fadein 1.5s linear;
-  /* -webkit-animation: fadeout 1s linear;
-    animation: fadeout 1s linear; */
 }
 
 @-webkit-keyframes fadein {
@@ -66,16 +64,6 @@ section {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-
-/* @-webkit-keyframes fadeout {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-}
-
-@keyframes fadeout {
-  0% { opacity: 1; }
-  100% { opacity: 0; }
-} */
 
 .linksBox {
   display: flex;

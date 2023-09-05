@@ -19,6 +19,7 @@ h2 {
 
 h2:hover {
   cursor: pointer;
+  color:rgb(3, 63, 184);
 }
 
 h3 {

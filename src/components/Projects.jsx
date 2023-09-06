@@ -1,7 +1,6 @@
 import React from "react";
 
 const Projects = (props) => {
-
   return (
     <div>
       <h2
@@ -22,6 +21,7 @@ const Projects = (props) => {
         <p>
           <span>
             <a
+              className="link"
               href="http://54.153.111.7/index.html"
               target="_blank"
               rel="noopener noreferrer"
@@ -32,6 +32,7 @@ const Projects = (props) => {
           /{" "}
           <span>
             <a
+              className="link"
               href="https://youtu.be/F1Tv-F8tKHU"
               target="_blank"
               rel="noopener noreferrer"
@@ -43,6 +44,7 @@ const Projects = (props) => {
         <p>
           <span>
             <a
+              className="link"
               href="https://sure-spark-coaching.onrender.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -53,6 +55,7 @@ const Projects = (props) => {
           /{" "}
           <span>
             <a
+              className="link"
               href="https://youtu.be/_lbRH4t2dWg"
               target="_blank"
               rel="noopener noreferrer"
@@ -64,13 +67,14 @@ const Projects = (props) => {
         <p>
           <span>
             <a
+              className="link"
               href="https://johnstictactoe.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Fun little tic-tac-toe 
+              Fun little tic-tac-toe
             </a>
-        </span>
+          </span>
         </p>
       </section>
     </div>

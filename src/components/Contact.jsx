@@ -60,6 +60,7 @@ const Contact = (props) => {
         </div>
         <div className="textLinks">
           <a
+            className="link"
             style={{ textDecoration: "none" }}
             href="https://docs.google.com/document/d/1v9X50yG8z3e2RIXA9_7UPmu8TPOMSdJ9THt_tavmwhU/edit?usp=sharing"
             target="_blank"

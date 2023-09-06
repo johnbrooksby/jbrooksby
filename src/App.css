@@ -80,6 +80,18 @@ section {
   padding-top: 15px;
 }
 
+.link:hover {
+  color:#34A3D8;
+}
+
+.link:visited {
+  color:#80bcd8;
+}
+
+.link:visited:hover {
+  color: #34A3D8;
+}
+
 .textLinks {
   display: flex;
   flex-direction: column;

@@ -24,10 +24,14 @@ h2:hover {
 
 h3 {
   font-size: 16pt;
+  margin-right: 10vw;
+  margin-left: 10vw;
 }
 
 p {
   font-size: 15pt;
+  margin-right: 10vw;
+  margin-left: 10vw;
 }
 
 .avatar {
@@ -80,16 +84,12 @@ section {
   padding-top: 15px;
 }
 
-.link:hover {
+.link:is(:hover, :visited:hover) {
   color:#34A3D8;
 }
 
 .link:visited {
-  color:#80bcd8;
-}
-
-.link:visited:hover {
-  color: #34A3D8;
+  color:#7bb9d5;
 }
 
 .textLinks {

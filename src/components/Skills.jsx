@@ -19,8 +19,8 @@ const Skills = (props) => {
         Skills
       </h2>
       <section hidden={props.hide.skills}>
-        <p>HTML, CSS, JavaScript, React, Node, Express,</p>
-        <p>VScode, SQL, JWT, AWS</p>
+        <p>HTML, CSS, JavaScript, React, Node,</p>
+        <p>Express, VScode, SQL, JWT, AWS</p>
       </section>
     </div>
   );

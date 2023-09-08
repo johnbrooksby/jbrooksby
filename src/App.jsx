@@ -24,7 +24,9 @@ function App() {
 
   return (
     <div>
-      <img src="/avatar2.jpg" className="avatar" />
+      <div className="avatarDiv">
+        <img src="/avatar2.jpg" className="avatar" />
+      </div>
       <div className="body">
         <Name
           hide={hide}

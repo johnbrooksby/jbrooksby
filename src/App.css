@@ -2,6 +2,7 @@
   text-align: center;
   padding: 0px;
   margin: 0px;
+  overflow-x: hidden;
 }
 
 h1, h2 {
@@ -35,20 +36,29 @@ p {
 }
 
 .avatar {
-  margin-top: 7vh;
-  margin-bottom: 2vh;
   border: 1px solid grey;
   border-radius: 50%;
   height: 16vh;
   box-shadow: 0px 0px 8px grey;
 }
 
+.avatarDiv {
+  width: 100vw;
+  padding-top: 7vh;
+  padding-bottom: 2vh;
+  position: fixed;
+  top:0px;
+  background-color: white;
+  z-index: 2;
+}
+
 .body {
+  margin-top: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 72vh;
-  gap: 20px;
+  min-height: 70vh;
+  gap: 2vh;
 }
 
 section {
@@ -100,15 +110,16 @@ section {
 }
 
 .foot {
-  position: fixed;
+  position: static;
   bottom: 0px;
-  height: 3vh;
+  height: 4vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   padding-left: 5px;
+  background-color: white;
 }
 
 .foot > p {
-  font-size: 13pt;
+  font-size: 2vh;
 }

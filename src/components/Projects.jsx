@@ -45,7 +45,7 @@ const Projects = (props) => {
           <span>
             <a
               className="link"
-              href="https://sure-spark-coaching.onrender.com"
+              href="http://52.53.167.147/"
               target="_blank"
               rel="noopener noreferrer"
             >

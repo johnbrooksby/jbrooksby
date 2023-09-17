@@ -68,6 +68,18 @@ const Projects = (props) => {
           <span>
             <a
               className="link"
+              href="http://annabrooksby.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              My wife's website
+            </a>
+          </span>
+        </p>
+        <p>
+          <span>
+            <a
+              className="link"
               href="https://johnstictactoe.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"

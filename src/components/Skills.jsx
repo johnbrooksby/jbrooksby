@@ -19,6 +19,11 @@ const Skills = (props) => {
         Skills
       </h2>
       <section hidden={props.hide.skills}>
+        <p>I'm a quick learner, funny, easy to get along with,</p>
+        <p>and I can fix stuff</p>
+        <br />
+        <p>I also know these things:</p>
+        <br />
         <p>HTML, CSS, JavaScript, React, Node,</p>
         <p>Express, VScode, SQL, JWT, AWS</p>
       </section>

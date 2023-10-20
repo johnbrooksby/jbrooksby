@@ -14,7 +14,7 @@ const Contact = (props) => {
             about: true,
             skills: true,
             projects: true,
-            contact: false,
+            contact: !props.hide.contact,
           });
         }}
       >

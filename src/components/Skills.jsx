@@ -10,7 +10,7 @@ const Skills = (props) => {
           props.setHide({
             name: true,
             about: true,
-            skills: false,
+            skills: !props.hide.skills,
             projects: true,
             contact: true,
           });

@@ -10,7 +10,7 @@ const Projects = (props) => {
             name: true,
             about: true,
             skills: true,
-            projects: false,
+            projects: !props.hide.projects,
             contact: true,
           });
         }}

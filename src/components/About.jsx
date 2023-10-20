@@ -7,7 +7,7 @@ const About = (props) => {
       <h2
         role="button"
         onClick={() => {
-          props.setHide({name: true, about: false, skills: true, projects: true, contact: true})
+          props.setHide({name: true, about: !props.hide.about, skills: true, projects: true, contact: true})
         }}
       >
         About

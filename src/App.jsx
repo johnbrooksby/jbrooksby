@@ -15,31 +15,27 @@ function App() {
     projects: true,
     contact: true,
   });
-  // const [render, setRender] = useState(true)
-
-  // useEffect(() => {
-  //   setRender(!render)
-  //   // console.log("render", render)
-  // }, [hide])
+  const [darkMode, setDarkMode] = useState(true)
 
   return (
     <div>
-      <div className="avatarDiv">
-        <img src="/avatar2.jpg" className="avatar" />
+      <div className={!darkMode ? "avatarDiv" : "avatarDiv darkMode"}>
+        <img src="/avatar2.jpg" className={!darkMode ? "avatar" : "avatar darkModeAvatar"} />
       </div>
-      <div className="body">
+      <div className={!darkMode ? "body" : "body darkMode"}>
         <Name
           hide={hide}
           setHide={setHide}
           name="John"
           title="React web developer"
+          darkMode={darkMode}
         />
-        <About hide={hide} setHide={setHide} />
-        <Skills hide={hide} setHide={setHide} />
-        <Projects hide={hide} setHide={setHide} />
-        <Contact hide={hide} setHide={setHide} />
+        <About hide={hide} setHide={setHide} darkMode={darkMode} />
+        <Skills hide={hide} setHide={setHide} darkMode={darkMode} />
+        <Projects hide={hide} setHide={setHide} darkMode={darkMode} />
+        <Contact hide={hide} setHide={setHide} darkMode={darkMode} />
       </div>
-      <Footer />
+      <Footer darkMode={darkMode} setDarkMode={setDarkMode} />
     </div>
   );
 }

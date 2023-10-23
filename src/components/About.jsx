@@ -4,6 +4,7 @@ const About = (props) => {
 
   return (
     <div>
+    {/* <div className={props.darkMode && "darkMode"}> */}
       <h2
         role="button"
         onClick={() => {

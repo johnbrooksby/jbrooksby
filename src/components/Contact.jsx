@@ -24,7 +24,7 @@ const Contact = (props) => {
       <section className="contact_me" hidden={props.hide.contact}>
         <div className="linksBox">
           <a
-            className="links"
+            className={props.darkMode ? "links darkMode" : "links"}
             href="https://www.linkedin.com/in/john-brooksby-fullstackdeveloper/"
             target="_blank"
             rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const Contact = (props) => {
           </a>
           <br />
           <a
-            className="links"
+            className={props.darkMode ? "links darkMode" : "links"}
             href="https://github.com/johnbrooksby"
             target="_blank"
             rel="noopener noreferrer"
@@ -42,7 +42,7 @@ const Contact = (props) => {
           </a>
           <br />
           <a
-            className="links"
+            className={props.darkMode ? "links darkMode" : "links"}
             href="https://www.codewars.com/users/johnbrooksby"
             target="_blank"
             rel="noopener noreferrer"
@@ -51,7 +51,7 @@ const Contact = (props) => {
           </a>
           <br />
           <a
-            className="links"
+            className={props.darkMode ? "links darkMode" : "links"}
             style={{ textDecoration: "none" }}
             href="mailto:johnhbrooksby@yahoo.com?subject=We want you to work for us!"
           >

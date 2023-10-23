@@ -129,6 +129,10 @@ section {
   font-size: 2vh;
 }
 
+.footerText {
+  font-size: 15pt;
+}
+
 .darkMode {
   background-color: black;
   color: rgb(250, 252, 244);

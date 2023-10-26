@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiCodewars } from "react-icons/si";
+import { SiCodewars, SiCodepen } from "react-icons/si";
+import { AiFillCodepenSquare } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 
 const Contact = (props) => {
@@ -48,6 +49,15 @@ const Contact = (props) => {
             rel="noopener noreferrer"
           >
             <SiCodewars />
+          </a>
+          <br />
+          <a
+            className={props.darkMode ? "links darkMode" : "links"}
+            href="https://codepen.io/John-Brooksby"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiCodepen />
           </a>
           <br />
           <a

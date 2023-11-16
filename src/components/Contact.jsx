@@ -78,6 +78,17 @@ const Contact = (props) => {
           >
             <h3>My Resume</h3>
           </a>
+          </div>
+        <div className="textLinks">
+          <a
+            className="link"
+            style={{ textDecoration: "none" }}
+            href="https://drive.google.com/file/d/1tZjHGaXx15tXk3oHzhBTGTuLl72J2CLS/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3>Letter of Recommendation</h3>
+          </a>
         </div>
       </section>
     </div>

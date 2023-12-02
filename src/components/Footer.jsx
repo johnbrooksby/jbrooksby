@@ -6,7 +6,6 @@ const Footer = (props) => {
       <footer className={props.darkMode ? "foot footerText darkMode" : "foot footerText"}>
         <a onClick={() => {
           props.setDarkMode(!props.darkMode)
-          console.log(props.darkMode)
         }}>{props.darkMode ? "Light Mode" : "Dark Mode"}</a>
         <p style={{fontSize:'14pt'}}>
           &copy; 2023 John Brooksby

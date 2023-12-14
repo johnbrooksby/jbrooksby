@@ -8,7 +8,7 @@ const Skills = (props) => {
         role="button"
         onClick={() => {
           props.setHide({
-            name: true,
+            // name: true,
             about: true,
             skills: !props.hide.skills,
             projects: true,
@@ -19,11 +19,6 @@ const Skills = (props) => {
         Skills
       </h2>
       <section hidden={props.hide.skills}>
-        <p>I'm a quick learner, funny, easy to get along with,</p>
-        <p>and I'm pretty handy at fixing stuff</p>
-        <br />
-        <p>I also know these things:</p>
-        <br />
         <p>HTML, CSS, JavaScript, React, Node,</p>
         <p>Express, VScode, SQL, JWT, AWS</p>
       </section>

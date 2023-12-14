@@ -32,7 +32,7 @@ function App() {
         />
         <About hide={hide} setHide={setHide} darkMode={darkMode} />
         <Skills hide={hide} setHide={setHide} darkMode={darkMode} />
-        <Projects hide={hide} setHide={setHide} darkMode={darkMode} />
+        {/* <Projects hide={hide} setHide={setHide} darkMode={darkMode} /> */}
         <Contact hide={hide} setHide={setHide} darkMode={darkMode} />
       </div>
       <Footer darkMode={darkMode} setDarkMode={setDarkMode} />

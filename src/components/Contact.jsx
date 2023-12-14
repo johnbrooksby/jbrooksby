@@ -11,7 +11,7 @@ const Contact = (props) => {
         role="button"
         onClick={() => {
           props.setHide({
-            name: true,
+            // name: true,
             about: true,
             skills: true,
             projects: true,
@@ -51,7 +51,7 @@ const Contact = (props) => {
             <SiCodewars />
           </a>
           <br />
-          <a
+          {/* <a
             className={props.darkMode ? "links darkMode" : "links"}
             href="https://codepen.io/John-Brooksby"
             target="_blank"
@@ -59,7 +59,7 @@ const Contact = (props) => {
           >
             <SiCodepen />
           </a>
-          <br />
+          <br /> */}
           <a
             className={props.darkMode ? "links darkMode" : "links"}
             style={{ textDecoration: "none" }}
@@ -68,7 +68,7 @@ const Contact = (props) => {
             <MdEmail />
           </a>
         </div>
-        <div className="textLinks">
+        {/* <div className="textLinks">
           <a
             className="link"
             style={{ textDecoration: "none" }}
@@ -89,7 +89,7 @@ const Contact = (props) => {
           >
             <h3>Letter of Recommendation</h3>
           </a>
-        </div>
+        </div> */}
       </section>
     </div>
   );

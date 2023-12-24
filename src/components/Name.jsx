@@ -14,9 +14,9 @@ const Name = (props) => {
         Hi, I'm {props.name}
       </h1>
       {/* <section hidden={props.hide.name}> */}
-      <section>
+      <div>
         <p>{props.title}</p>
-      </section>
+      </div>
     </div>
   );
 };

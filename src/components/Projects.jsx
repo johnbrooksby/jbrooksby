@@ -18,7 +18,7 @@ const Projects = (props) => {
         Projects
       </h2>
       <section hidden={props.hide.projects}>
-        <p>
+        {/* <p>
           <span>
             <a
               className="link"
@@ -40,7 +40,7 @@ const Projects = (props) => {
               Demo
             </a>
           </span>
-        </p>
+        </p> */}
         <p>
           <span>
             <a
@@ -51,7 +51,8 @@ const Projects = (props) => {
             >
               Sure Spark Coaching
             </a>
-          </span>{" "}
+          </span>
+          {/* {" "}
           /{" "}
           <span>
             <a
@@ -62,7 +63,7 @@ const Projects = (props) => {
             >
               Demo
             </a>
-          </span>
+          </span> */}
         </p>
         <p>
           <span>

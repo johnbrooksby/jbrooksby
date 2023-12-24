@@ -21,7 +21,7 @@ const About = (props) => {
       <section hidden={props.hide.about}>
         <p>I have a good work ethic and I work well with others</p>
         <p>I continue to show up when things get hard</p>
-        <p>I have a habit of finding inefficiencies</p>
+        <p>I have a knack for identifying inefficiencies</p>
         <p>and working to improve on them</p>
         <p>I am a finisher</p>
         <h3></h3>

@@ -97,13 +97,21 @@ section {
   padding-top: 15px;
 }
 
+.link {
+  color: #7bb9d5;
+}
+
 .link:is(:hover, :visited:hover) {
   color:#34A3D8;
 }
 
-.link:visited {
-  color:#7bb9d5;
+.light-link {
+  color: #34a3d8;
 }
+
+/* .link:visited {
+  color:#7bb9d5;
+} */
 
 .textLinks {
   display: flex;

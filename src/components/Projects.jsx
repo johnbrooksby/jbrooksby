@@ -44,7 +44,7 @@ const Projects = (props) => {
         <p>
           <span>
             <a
-              className="link"
+              className={!props.darkmode ? "link light-link" : "link"}
               href="http://52.53.167.147/"
               target="_blank"
               rel="noopener noreferrer"
@@ -68,7 +68,7 @@ const Projects = (props) => {
         <p>
           <span>
             <a
-              className="link"
+              className={!props.darkmode ? "link light-link" : "link"}
               href="http://annabrooksby.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
@@ -80,7 +80,7 @@ const Projects = (props) => {
         <p>
           <span>
             <a
-              className="link"
+              className={!props.darkmode ? "link light-link" : "link"}
               href="https://johnstictactoe.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"

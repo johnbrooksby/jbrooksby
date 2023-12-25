@@ -15,7 +15,7 @@ function App() {
     projects: true,
     contact: true,
   });
-  const [darkMode, setDarkMode] = useState(true)
+  const [darkMode, setDarkMode] = useState(localStorage.getItem("darkMode") ? (localStorage.getItem("darkMode")=== "true" ? true : false) : true)
 
   return (
     <div>

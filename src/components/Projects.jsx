@@ -28,8 +28,8 @@ const Projects = (props) => {
             >
               Plant Picture Database
             </a>
-          </span>{" "}
-          /{" "}
+      </span>{" "} */}
+          {/* /{" "}
           <span>
             <a
               className="link"
@@ -41,8 +41,8 @@ const Projects = (props) => {
             </a>
           </span>
         </p> */}
-        <p>
-          <span>
+        {/* <p>
+           <span>
             <a
               className={!props.darkmode ? "link light-link" : "link"}
               href="http://52.53.167.147/"
@@ -51,7 +51,7 @@ const Projects = (props) => {
             >
               Sure Spark Coaching
             </a>
-          </span>
+          </span> */}
           {/* {" "}
           /{" "}
           <span>
@@ -63,8 +63,8 @@ const Projects = (props) => {
             >
               Demo
             </a>
-          </span> */}
-        </p>
+          </span> 
+        </p> */}
         <p>
           <span>
             <a
